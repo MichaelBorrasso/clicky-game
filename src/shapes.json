@@ -1,0 +1,63 @@
+
+[
+    {
+        "id": 1,
+        "name": "Triangle",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Square",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Diamond",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "Parallelogram",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "Trapezoid",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "name": "Pentagon",
+        "image": ""
+    },
+    {
+        "id": 7,
+        "name": "Hexagon",
+        "image": ""
+    },
+    {
+        "id": 8,
+        "name": "Heptagon",
+        "image": ""
+    },
+    {
+        "id": 9,
+        "name": "Octogon",
+        "image": ""
+    },
+    {
+        "id": 10,
+        "name": "Nonagon",
+        "image": ""
+    },
+    {
+        "id": 11,
+        "name": "Decagon",
+        "image": ""
+    },
+    {
+        "id": 12,
+        "name": "Circle",
+        "image": ""
+    }
+]
