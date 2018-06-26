@@ -4,7 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import shapes from "./shapes.json";
 import './App.css';
-
+import Nav from "./components/Nav";
 class App extends Component {
 
   state = {
@@ -31,9 +31,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <nav>
+        <Nav>
           <Title>SHAPE CLICKER</Title>
-          </nav>
+          </Nav>
         {this.state.shapes.map(shape => (
           <ShapeCard
             shuffle={this.shuffle}
