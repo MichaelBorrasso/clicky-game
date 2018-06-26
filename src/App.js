@@ -10,7 +10,16 @@ class App extends Component {
   state = {
     shapes
   };
-
+   shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
   moveShape = id => {
     // Filter this.state.shapes for shape with an id not equal to the id being clicked
     const shapes = this.state.shapess.filter(shape => shape.id !== id);
@@ -22,10 +31,12 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Shapes</Title>
+        <nav>
+          <Title>SHAPE CLICKER</Title>
+          </nav>
         {this.state.shapes.map(shape => (
           <ShapeCard
-            moveShape={this.moveShape}
+            shuffle={this.shuffle}
             id={shape.id}
             key={shape.id}
             name={shape.name}

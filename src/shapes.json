@@ -3,61 +3,61 @@
     {
         "id": 1,
         "name": "Triangle",
-        "image": ""
+        "image": "../assets/Triangle.png"
     },
     {
         "id": 2,
         "name": "Square",
-        "image": ""
+        "image": "../assets/Square.png"
     },
     {
         "id": 3,
         "name": "Diamond",
-        "image": ""
+        "image": "../assets/Diamond.png"
     },
     {
         "id": 4,
         "name": "Parallelogram",
-        "image": ""
+        "image": "../assets/Parallelogram.png"
     },
     {
         "id": 5,
         "name": "Trapezoid",
-        "image": ""
+        "image": "../assets/Trapezoid.jpg"
     },
     {
         "id": 6,
         "name": "Pentagon",
-        "image": ""
+        "image": "../assets/Pentagon.png"
     },
     {
         "id": 7,
         "name": "Hexagon",
-        "image": ""
+        "image": "../assets/Hexagon.png"
     },
     {
         "id": 8,
         "name": "Heptagon",
-        "image": ""
+        "image": "../assets/Heptagon.png"
     },
     {
         "id": 9,
         "name": "Octogon",
-        "image": ""
+        "image": "../assets/Octogon.jpg"
     },
     {
         "id": 10,
         "name": "Nonagon",
-        "image": ""
+        "image": "../assets/Nonagon.png"
     },
     {
         "id": 11,
         "name": "Decagon",
-        "image": ""
+        "image": "../assets/Decagon.png"
     },
     {
         "id": 12,
         "name": "Circle",
-        "image": ""
+        "image": "../assets/Circle.png"
     }
 ]
